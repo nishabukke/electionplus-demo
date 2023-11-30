@@ -106,3 +106,102 @@ $('#menu').onclick=()=>{
    $('.menu-line2').classList.toggle('rotate2')
 }
 }
+
+
+function viewMore1() {
+  var dots1 = document.getElementById("dots1");
+  var moreText1 = document.getElementById("more1");
+  var btnText1 = document.getElementById("view1");
+
+  if (dots1.style.display === "none") {
+    dots1.style.display = "inline";
+    btnText1.innerHTML = "View more"; 
+    moreText1.style.display = "none";
+  } else {
+    dots1.style.display = "none";
+    btnText1.innerHTML = "View less"; 
+    moreText1.style.display = "inline";
+  }
+}
+
+
+function viewMore2() {
+  var dots2 = document.getElementById("dots2");
+  var moreText2 = document.getElementById("more2");
+  var btnText2 = document.getElementById("view2");
+
+  if (dots2.style.display === "none") {
+    dots2.style.display = "inline";
+    btnText2.innerHTML = "View more"; 
+    moreText2.style.display = "none";
+  } else {
+    dots2.style.display = "none";
+    btnText2.innerHTML = "View less"; 
+    moreText2.style.display = "inline";
+  }
+}
+
+
+function viewMore3() {
+  var dots3 = document.getElementById("dots3");
+  var moreText3 = document.getElementById("more3");
+  var btnText3 = document.getElementById("view3");
+
+  if (dots3.style.display === "none") {
+    dots3.style.display = "inline";
+    btnText3.innerHTML = "View more"; 
+    moreText3.style.display = "none";
+  } else {
+    dots3.style.display = "none";
+    btnText3.innerHTML = "View less"; 
+    moreText3.style.display = "inline";
+  }
+}
+
+function viewMore4() {
+  var dots4 = document.getElementById("dots4");
+  var moreText4 = document.getElementById("more4");
+  var btnText4 = document.getElementById("view4");
+
+  if (dots4.style.display === "none") {
+    dots4.style.display = "inline";
+    btnText4.innerHTML = "View more"; 
+    moreText4.style.display = "none";
+  } else {
+    dots4.style.display = "none";
+    btnText4.innerHTML = "View less"; 
+    moreText4.style.display = "inline";
+  }
+}
+
+function viewMore5() {
+  var dots5 = document.getElementById("dots5");
+  var moreText5 = document.getElementById("more5");
+  var btnText5 = document.getElementById("view5");
+
+  if (dots5.style.display === "none") {
+    dots5.style.display = "inline";
+    btnText5.innerHTML = "View more"; 
+    moreText5.style.display = "none";
+  } else {
+    dots5.style.display = "none";
+    btnText5.innerHTML = "View less"; 
+    moreText5.style.display = "inline";
+  }
+}
+
+function viewMore6() {
+  var dots6 = document.getElementById("dots6");
+  var moreText6 = document.getElementById("more6");
+  var btnText6 = document.getElementById("view6");
+
+  if (dots6.style.display === "none") {
+    dots6.style.display = "inline";
+    btnText6.innerHTML = "View more"; 
+    moreText6.style.display = "none";
+  } else {
+    dots6.style.display = "none";
+    btnText6.innerHTML = "View less"; 
+    moreText6.style.display = "inline";
+  }
+}
