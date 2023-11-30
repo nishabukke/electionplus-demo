@@ -36,20 +36,20 @@ a{
     border: 2px solid #3d64d8;
 }
 
-/* .logo-bg{
+.logo-bg{
     background-image: url('images/logo-bg.png');
     background-position: center;
     background-size: cover;
-    height: 20%;
-    top: 50%;
-    right: 0%;
-    width: 100%;
+    height: 15%;
+    top: 23%;
+    left: 12%;
+    width: 35%;
     background-repeat: no-repeat;
     position: absolute;
-} */
+}
 
 .header{
-    background-image: url('images/header-banner1.avif');
+    background-image: url('images/header-banner.avif');
     background-position: center;
     background-size: cover;
 }
@@ -224,7 +224,7 @@ a{
 
     .headings{
         position: relative;
-        padding: 0px 20px;
+        padding: 0px 15px;
         background: #011121;
     }
 
@@ -624,6 +624,10 @@ a{
 
     .about-section, .services-section p {
         padding: 0px 30px;
+    }
+
+    .logo-bg{
+        display: none;
     }
 
     .about-section h1 {
