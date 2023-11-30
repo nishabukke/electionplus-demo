@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Election Plus</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="logo-bg"></div>
+        <div class="header">
+            <div class="header-inner">
+                    <img src="images/logo.png" alt="logo">
+                    <div class="nav-menu">
+                        <a href="index.html" class="active">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="services.html">Services</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <a class="get-in-touch common-btn trigger">Get in Touch</a>
+                    <div class="mobile-menu">
+                        <div id='menu'>
+                            <div class='menu-line1'></div>
+                            <div class='menu-line2'></div>
+                          </div>
+                          <div class='nav-page1'>
+                            <a href="index.html" class="active">Home</a>
+                            <a href="about.html">About</a>
+                            <a href="services.html">Services</a>
+                            <a href="contact.html">Contact</a>
+                            <!-- <a class="mobile-common-btn trigger">Get in Touch</a> -->
+                          </div>
+                    </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="about-section pb-5">
+                <div class="row pt-5">
+                    <div class="col-12 col-md-5 col-lg-5 col-sm-12">
+                        <h1 class="reveal fadeInUp"><span>What is</span><br> Election Plus?</h1>
+                    </div>
+                    <div class="col-12 col-md-7 col-lg-7 col-sm-12">
+                        <div class="about-content">
+                            <p>Given the current political system, "Social Media" has become a mandatory element for political candidates to campaign and disseminate. And keeping this main thing in mind, Election Plus is providing you the accurate data of your constituency, its ward wise leaders and the information about the improvements made in that area in just one click. It mainly uses Facebook, Twitter. Creating Facebook pages of political leaders, uploading photos and videos of their activities on it, posting audio and video depictions of meetings held by them, conveying information about various social issues solved by them to the public in appropriate words, what are the feelings of the voters about them, the opinion of the public in their favor. Our main aim will be to spread the word in a way that suits.</p>
+                        <a href="about.html" class="common-btn know-more reveal fadeInUp">Know More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="case-study-section pt-5">
+                <h1>
+                    <div class="horizontal-line"></div>
+                    <span  class="headings">Case Study</span>
+                </h1>
+                <div class="row pt-5">
+                    <div class="col-12 col-md-12 col-lg-12 col-sm-12">
+                            <div class="d-flex flex-row text-center"> 
+                              <div class="TabButton TabButtonSelected" id="Tab1" onclick="activeTab(event, 'Tab1')">Case Study 1</div>
+                              <div class="TabButton " id="Tab2" onclick="activeTab(event, 'Tab2')">Case Study 2</div>
+                              <div class="TabButton " id="Tab3" onclick="activeTab(event, 'Tab3')">Case Study 3</div>
+                            </div>
+                      <div class="d-flex flex-column p-5">
+                        <div id="SectionTab1" class="tab-section d-chart-n d-chart-show" >
+                            <div class="row">
+                                <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                                    <img src="images/case-study.png" alt="" class="case-study-img">
+                                </div>
+                                <div class="col-12 col-md-8 col-lg-8 col-sm-12">
+                                    <div class="case-study-content">
+                                        <h1>Constitutional Provisions and Politics</h1>
+                                        <p>Looking at the current political system, it is seen that new developments are happening rapidly every day. The cycle of power has sometimes fallen in the hands of the BJP, sometimes in the hands of the Nationalists, and sometimes it has stopped in front of the Sena. As per our constitutional provisions, the Governor, as the representative of the President, administers the oath of office of the Chief Minister to the majority leader who claims to be the Chief Minister. But this time, as no one party gets a clear majority, in front of all the parties, which parties will form an alliance? There were many questions that the independents would form a coalition government with someone.</p>
+                                        <a href="about.html" class="common-btn read-more">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="SectionTab2" class="tab-section d-chart-n">
+                            <div class="row">
+                                <div class="col-12 col-md-8 col-lg-8 col-sm-12">
+                                    <div class="case-study-content">
+                                        <h1>Constitutional Provisions and Politics</h1>
+                                        <p>Looking at the current political system, it is seen that new developments are happening rapidly every day. The cycle of power has sometimes fallen in the hands of the BJP, sometimes in the hands of the Nationalists, and sometimes it has stopped in front of the Sena. As per our constitutional provisions, the Governor, as the representative of the President, administers the oath of office of the Chief Minister to the majority leader who claims to be the Chief Minister. But this time, as no one party gets a clear majority, in front of all the parties, which parties will form an alliance? There were many questions that the independents would form a coalition government with someone.</p>
+                                        <a href="about.html" class="common-btn read-more">Read More</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                                    <img src="images/case-study.png" alt="" class="case-study-img">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="SectionTab3" class="tab-section d-chart-n">
+                            <div class="row">
+                                <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                                    <img src="images/case-study.png" alt="" class="case-study-img">
+                                </div>
+                                <div class="col-12 col-md-8 col-lg-8 col-sm-12">
+                                    <div class="case-study-content">
+                                        <h1>Constitutional Provisions and Politics</h1>
+                                        <p>Looking at the current political system, it is seen that new developments are happening rapidly every day. The cycle of power has sometimes fallen in the hands of the BJP, sometimes in the hands of the Nationalists, and sometimes it has stopped in front of the Sena. As per our constitutional provisions, the Governor, as the representative of the President, administers the oath of office of the Chief Minister to the majority leader who claims to be the Chief Minister. But this time, as no one party gets a clear majority, in front of all the parties, which parties will form an alliance? There were many questions that the independents would form a coalition government with someone.</p>
+                                        <a href="about.html" class="common-btn read-more">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-section pt-5">
+                <h1>
+                    <div class="horizontal-line"></div>
+                    <span class="headings">Services</span>
+                </h1>
+                <p class="pt-2">Election Plus provides you with SMS facility, voice call, multimedia message, miss call service, web design, social media campaign. We value the values ​​of both candidates and voters. By becoming a link of reconciliation between voters and candidates, we will always try to ensure that the candidate gets maximum vote of the people in the elections.</p>
+                <div class="row p-5 reveal fadeInAnimation">
+                    <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                        <div class="service-card">
+                            <div class="service-image-content">
+                                <span class="overlay"></span>
+                                <div class="service-card-image">
+                                   <img src="images/social-promo.png" alt="" class="service-card-img">
+                                </div>
+                            </div>
+                            <div class="service-card-content">
+                                <h2 class="service-name">Social Promotion</h2>
+                                <p class="service-description">It involves posting the depiction of the meetings held by the candidates in audio and video form, conveying the information about the various social issues solved by them to the public in appropriate words,</p>
+                                <a href="#" class="common-btn">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                        <div class="service-card">
+                            <div class="service-image-content">
+                                <span class="overlay"></span>
+                                <div class="service-card-image">
+                                   <img src="images/portfolio.png" alt="" class="service-card-img">
+                                </div>
+                            </div>
+                            <div class="service-card-content">
+                                <h2 class="service-name">Portfolio Building</h2>
+                                <p class="service-description">These days, instead of listening to a cassette tape of the speech from Janata Rickshaw, one sees the leaders live on Facebook and Twitter. between voters and public through these digital media</p>
+                                <a href="#" class="common-btn">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                        <div class="service-card">
+                            <div class="service-image-content">
+                                <span class="overlay"></span>
+                                <div class="service-card-image">
+                                   <img src="images/web-app.png" alt="" class="service-card-img">
+                                </div>
+                            </div>
+                            <div class="service-card-content">
+                                <h2 class="service-name">Website Development</h2>
+                                <p class="service-description">This website of Election Plus is multi-purpose for candidate as well as workers. Campaigning for polls through worker, bulk sms, banners, audio of candidate work and Video can do it all for promotion.
+                                </p>
+                                <a href="#" class="common-btn">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row p-5 pt-0 reveal fadeInAnimation">
+                    <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                        <div class="service-card">
+                            <div class="service-image-content">
+                                <span class="overlay"></span>
+                                <div class="service-card-image">
+                                   <img src="images/sms.png" alt="" class="service-card-img">
+                                </div>
+                            </div>
+                            <div class="service-card-content">
+                                <h2 class="service-name">SMS Services</h2>
+                                <p class="service-description">A surefire way to reach people who don't have access to the internet is through text messages! This SMS By taking the candidates in the wards</p>
+                                <a href="#" class="common-btn">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                        <div class="service-card">
+                            <div class="service-image-content">
+                                <span class="overlay"></span>
+                                <div class="service-card-image">
+                                   <img src="images/voice-call.png" alt="" class="service-card-img">
+                                </div>
+                            </div>
+                            <div class="service-card-content">
+                                <h2 class="service-name">Voice Call Services</h2>
+                                <p class="service-description">The new improved idea of ​​today's promotion is the recorded voice call. Everyone loves to listen to the speech of their favorite candidate. But every time a public meeting or</p>
+                                <a href="#" class="common-btn">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                        <div class="service-card">
+                            <div class="service-image-content">
+                                <span class="overlay"></span>
+                                <div class="service-card-image">
+                                   <img src="images/misscall.png" alt="" class="service-card-img">
+                                </div>
+                            </div>
+                            <div class="service-card-content">
+                                <h2 class="service-name">Miss Call Alert</h2>
+                                <p class="service-description">This special facility of miscall service is made available through our app. It is used to quickly familiarize the candidate with the basic questions of your section</p>
+                                <a href="#" class="common-btn">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer p-5">
+            <div class="footer-inner">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                            <img src="images/logo-bg.png" alt="footer-logo"  class="footer-logo">
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                            <div class="footer-content">
+                                <img src="images/footer-logo-heading.png" alt="footer-heading">
+                                <h6>STRATEGIES FOR PRE & POST ELECTION MANAGEMENT SERVICES.</h6>
+                                <p>The function of Election Plus is embedded in the digital network. We will make full use of it to get the candidate elected.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                            <div class="footer-right">
+                                <div class="social">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                </div>
+                                <div class="address">
+                                    <p><strong>Corporate Office :</strong> Office No. 201, Mahaveer Corner Building, Opposite Swami Vivekananda Garden, Kakade Nagar Road, Kondhwa Bu II, Pune 411 048. (Maharashtra)</p>
+                                </div>
+                                <div class="contact-footer">
+                                    <span><i class="fa-solid fa-envelope"></i><a href="mailto:contact@electionplus.com">contact@electionplus.com</a></span>
+                                    <span><i class="fa-solid fa-phone"></i>+917273036969</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal-div">
+        <div class="modal-content">
+            <span class="close-button">×</span>
+            <div class="modal-header-div">
+                <p class="text-center text-white">Get in Touch</p>
+            </div>
+            <form>
+                <!-- Name -->
+                <div class="form-group">
+                    <label for="formName" class="d-block">
+                        <i class="fa-regular fa-user form-icon"></i>
+                    </label>
+                    <input type="text" id="formName" class="form-control form-control-lg thick" placeholder="Name">
+                </div>
+    
+                <!-- E-mail -->
+                <div class="form-group">
+                    <label for="formEmail" class="d-block">
+                        <i class="fa-regular fa-envelope form-icon"></i>
+                    </label>
+                    <input type="email" id="formEmail" class="form-control form-control-lg thick" placeholder="E-mail">
+                </div>
+    
+                <!-- Message -->
+                <div class="form-group message">
+                    <label for="formMessage" class="d-block">
+                        <i class="fa-regular fa-message form-icon"></i>
+                    </label>
+                    <textarea id="formMessage" class="form-control form-control-lg thick"  placeholder="Type your message..."></textarea>
+                </div>
+            
+                <!-- Submit btn -->
+                <div class="text-center">
+                    <a type="submit" class="submit-btn btn-form" tabIndex="-1">Send message</a>
+                </div>
+        </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
