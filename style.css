@@ -50,8 +50,10 @@ a{
 
 .header{
     background-image: url('images/header-banner.avif');
-    background-position: center;
+    background-color: #042355;
+    background-position: 100% 100%;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .header-inner{
@@ -685,7 +687,7 @@ a{
     }
 
     .headings {
-        font-size: 32px;
+        font-size: 24px;
     }
 
     .about-content p{

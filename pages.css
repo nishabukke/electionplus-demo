@@ -357,6 +357,7 @@ a{
 
 .contact-us p{
   color: #fff;
+  margin: 0;
   text-align: center;
 }
 
@@ -376,6 +377,12 @@ a{
   width: 40px;
   height: 40px;
   border-radius: 50%; 
+}
+
+.contact-page-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 
@@ -655,13 +662,78 @@ a{
 
 @media screen and (max-width:450px) {
 
-    .nav-menu, .get-in-touch{
+    .nav-menu, .get-in-touch, .logo-bg{
         display: none;
     }
 
     .mobile-menu{
         display: block;
     }
+
+    .about-img, .service-img, .contact-img {
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%,-60%);
+      width: 70%;
+  } 
+
+  .headings {
+    font-size: 24px;
+  }
+
+  .about-us-section p, .vision-mission-section p{
+    font-size: 12px;
+    padding-top: 0px !important;
+  }
+
+  .vision-mission-section .row{
+    justify-content: center;
+    padding: 0px 30px;
+  }
+
+  .border-vision-mission{
+    padding: 10px 20px !important;
+    gap: 15px;
+  }
+
+  .vision-mission-section .icon, .service-page-section .icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .vision-mission-section h1 {
+    font-size: 24px;
+  }
+
+  .why-choose-section .row .col-12:nth-child(3){
+    padding: 20px 10px;
+  }
+
+  .border-vision-mission:nth-child(odd){
+    flex-direction: column-reverse;
+  }
+  
+    #view1, #view2, #view3, #view4, #view5, #view6{
+      display: flex;
+      width: max-content;
+      margin: 0px auto;
+    }
+
+  .contact-us p{
+    font-size: 12px;
+  }
+
+  .contact-us .row{
+    gap: 30px;
+  }
+
+  .service-content{
+    gap: 15px;
+  }
+
+  .service-page-content h1{
+    text-align: center;
+  }
 
     .footer-inner .row{
         gap: 20px;
